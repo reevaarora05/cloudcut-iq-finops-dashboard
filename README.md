@@ -2,6 +2,9 @@
 
 **A browser-based FinOps dashboard that estimates cloud waste, unused SaaS licenses, duplicate tools, and contract renewal risk — no backend, no build step, no data ever leaves your browser.**
 
+## Live Demo
+
+[Open CloudCut IQ](https://reevaarora05.github.io/cloudcut-iq-finops-dashboard/cloudcut-iq.html)
 ---
 
 ## The Problem
@@ -58,7 +61,8 @@ That's it — no server, no build step, no dependencies to install.
 1. Create a new GitHub repository and push `cloudcut-iq.html` and `README.md` to it.
 2. In the repository, go to **Settings → Pages**.
 3. Under **Build and deployment**, set **Source** to `Deploy from a branch`, pick your default branch (e.g. `main`) and the `/ (root)` folder, then save.
-4. Wait a minute for GitHub to build the page, then visit the URL GitHub Pages gives you (e.g. `https://<your-username>.github.io/<repo-name>/cloudcut-iq.html`).
+4. 4. Wait a minute for GitHub to build the page, then open:
+   `https://reevaarora05.github.io/cloudcut-iq-finops-dashboard/cloudcut-iq.html`
 5. Optional: rename `cloudcut-iq.html` to `index.html` (or add an `index.html` that redirects to it) if you want it to load at the bare repo URL.
 
 ## Repo Structure
